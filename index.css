@@ -1,0 +1,83 @@
+body{
+    background-color: #292D3B;
+}
+
+.mywatch{
+    text-align: center;
+    margin: auto;
+    background-color:#292D3B;
+    color: white;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.hours{
+    font-size: 70px;
+    background-color: rgb(252, 88, 88);
+    border-radius: 10px;
+    padding: 10px;
+}
+.min{
+    font-size: 70px;
+    background-color: rgb(63, 199, 58);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sec{
+    font-size: 70px;
+    background-color: rgb(194, 160, 47);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Date{
+    background-color: #343947;
+    color: #616773;
+    width: 16%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.day{
+    float: left;
+}
+.Date{
+    text-align: center;
+}
+.M{
+    float: right;
+}
+
+
+@media screen (max-width:767.98px) {
+    .mywatch{
+        font-size: 30px;
+    }
+    .Date{
+        width: 30%;
+    }
+}
+
+
+@media  (max-width:575.98px) {
+    .Date{
+        width: 65%;
+    }
+    .mywatch{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .mywatch{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .Date{
+       margin-top: 10px;
+       width: 90%;
+    }
+}
